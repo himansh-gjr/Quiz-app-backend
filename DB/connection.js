@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const URI = 'mongodb+srv://dbUser:OOhVEFcWOCNOMnJ5@cluster0.o8ryz.mongodb.net/quiz-app?retryWrites=true&w=majority'
+const URI = <databaseURI>
 
 const connectDB = async () =>{
     await mongoose.connect(URI,{ useNewUrlParser: true, useUnifiedTopology: true })
